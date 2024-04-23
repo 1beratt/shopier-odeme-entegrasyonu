@@ -28,7 +28,7 @@ Bu repo, Laravel ve Shopier arasında ödeme işlemleri için basit bir entegras
 - **shopierCallback**: Shopier'den gelen geri bildirimleri işler ve sipariş durumunu günceller.
 - **generateOrderNumber**: Benzersiz bir sipariş numarası oluşturur.
 
-## API Anahtarı ve Gizli Kod
+## API Anahtarı ve API Secret
 
 - API anahtarınızı ve API Secret kodunuzu `order` ve `shopierCallback` fonksiyonlarında tanımlamanız gerekmektedir. Bu bilgileri `.env` dosyanızda saklayabilirsiniz.
 
